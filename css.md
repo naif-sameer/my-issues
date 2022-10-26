@@ -2,6 +2,8 @@
 
 **Content**
 - [set up a dynamic grid based on flex](#issue-1)
+- [type of css layout](#issue-2)
+
 
 <a name="issue-1"></a>
 ## set up a dynamic grid based on flex
@@ -45,3 +47,10 @@
   <div></div>
 </div>
 ```
+
+
+<a name="issue-2"></a>
+## type of layout in css
+- Masonry Layout
+- grid layout (x and y)
+- flex layout (x or y)

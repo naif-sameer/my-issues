@@ -9,8 +9,8 @@
 
 ```php
  YourModel::query()
-    ->whereTime('start', '<=', now()->toDateTimeString())
-    ->whereTime('end', '>=', now()->toDateTimeString())
+    ->where('start', '<=', now()->toDateTimeString())
+    ->where('end', '>=', now()->toDateTimeString())
     ->get();
 ```
 
